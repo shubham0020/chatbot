@@ -28,7 +28,7 @@ const Home = () => {
               <h5 data-aos="fade-up" data-aos-delay="400" className="pt-5"><span>SimpliBot powers multilingual conversations and trusted global communications to connect you with.</span> <br/><br/>
               <span>Because it allows you to manage informational and transactional dialog, empowering your support services across demographics is easy.</span></h5><br/>
               <div data-aos="fade-up" data-aos-delay="800">
-                <NavLink to={'/about'} className="btn-get-started scrollto">Sign up and get started now</NavLink>
+                <NavLink to={'/about'} className="btn-get-started mobile-btn scrollto">Sign up and get started now</NavLink>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ const Home = () => {
              messenges that exceed expectations. </span> <br/><br/>
               </h5>
               <div data-aos="fade-up" data-aos-delay="800">
-                <div><NavLink to={'/about'} className="btn-get-started scrollto">Put your service manual to work</NavLink></div>
+                <div><NavLink to={'/about'} className="btn-get-started mobile-btn scrollto">Put your service manual to work</NavLink></div>
                 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 <div><NavLink to={'/about'} className="btn-get-started scrollto">Learn more</NavLink></div>
                 
@@ -105,7 +105,7 @@ const Home = () => {
               <h6 data-aos="fade-up" data-aos-delay="400" ><span>Automate your customer experience by combining any digital channel, first party customer data, and globally based data centers to support you at scale .</span> <br/><br/>
               <span>Because it allows you to manage informational and transactional dialog, empowering your support services across demographics is easy.</span></h6><br/>
               <div data-aos="fade-up" data-aos-delay="800">
-                <NavLink to={'/about'} className="btn-service  scrollto" style={{ backgroundColor: 'rgb(53 203 107)', fontWeight:600}}>End2End Encrypted</NavLink>
+                <NavLink to={'/about'} className="btn-service mobile-btn scrollto" style={{ backgroundColor: 'rgb(53 203 107)', fontWeight:600}}>End2End Encrypted</NavLink>
 
                 <br/><br/>
 

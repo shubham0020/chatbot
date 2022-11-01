@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { Swiper, SwipperSlider } from 'swiper/react';
+//import { Swiper, SwipperSlider } from 'swiper/react';
 
 import 'swiper/swiper-bundle.css';
 
@@ -42,7 +42,7 @@ import 'swiper/swiper-bundle.css';
   <div className="row d-flex align-items-center">
     <div className="col-lg-6 text-lg-left text-center">
       <div className="copyright">
-        &copy; Copyright <strong>ChatBot</strong>. All Rights Reserved
+        &copy; Copyright <strong>SimpliBot</strong>. All Rights Reserved
       </div>
       <div className="credits">
         

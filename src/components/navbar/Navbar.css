@@ -8,7 +8,9 @@
     height: 90px;
     z-index: 10;
 }
-
+.logo{
+    margin-top: 12px;
+}
 .header-bg {
 background-color: rgba(0, 0, 0, 0.85);
 transition: 0.5s;
@@ -80,4 +82,230 @@ transition: 0.5s;
 .hamburger {
     display: initial;
 }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+
+    /* .social-container{
+        top:-9px !important;
+    } */
+    #hero {
+        margin-top: -677px;
+      }
+    .mobile-btn{
+        margin-top: 10%;
+      }
+    .mobile-res{
+        margin-top: -500px!important;
+    }
+    .mobtab{
+        margin-top: -580%!important;
+    }
+    .mobtab2{
+        margin-top: 40%!important;
+        padding-left: 5%;
+    }
+    .feature-mob{
+        margin-top: -285%!important;
+    }
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* background: rgba(0, 0, 0, 0.9); */
+        position: absolute;
+        top:0;
+        left: -2000%;
+        z-index: -3;
+        transition: 0.6s;
+
+    }
+    .nav-menu.active{
+        left: -391px;
+        background-color: #fff;
+        width: 2500%;
+        
+    }
+
+    .nav-menu li {
+        padding: 1rem 0;
+    }
+    .nav-menu li a {
+        font-size: 1.3rem;
+    }
+     
+    .hamburger {
+        display: initial;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width : 412px) and (max-width : 914px){
+
+    #hero {
+        margin-top: -840px;
+      }
+    .mobile-btn{
+        margin-top: 10%;
+      }
+    .mobile-res{
+        margin-top: -500px!important;
+    }
+    .mobtab{
+        margin-top: -635%!important;
+    }
+    .mobtab2{
+        margin-top: 40%!important;
+        padding-left: 7%;
+    }
+    .feature-mob{
+        margin-top: -329%!important;
+    }
+    .nav-menu.active{
+        left: -421px;
+        background-color: #fff;
+        width: 2500%;
+        
+    }
+    .nav-menu{
+        left: -2500%;
+    }
+    .contact-about{
+        padding:7%;
+    }
+    .php-email-form{
+        padding:7%;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (min-width : 375px) and (max-width : 667px){
+
+    #hero {
+        margin-top: -470px;
+      }
+    .mobile-btn{
+        margin-top: 10%;
+      }
+    .mobile-res{
+        margin-top: -500px!important;
+    }
+    .mobtab{
+        margin-top: -395%!important;
+    }
+    .mobtab2{
+        margin-top: 40%!important;
+        padding-left: 7%;
+    }
+    .feature-mob{
+        margin-top: -168%!important;
+    }
+    .nav-menu.active{
+        left: -405px;
+        background-color: #fff;
+        width: 2500%;
+        
+    }
+    .nav-menu{
+        left: -2500%;
+    }
+    .contact-about{
+        padding:7%;
+    }
+    .php-email-form{
+        padding:7%;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width : 390px) and (max-width : 896px){
+
+    #hero {
+        margin-top: -800px;
+      }
+    .mobile-btn{
+        margin-top: 10%;
+      }
+    .mobile-res{
+        margin-top: -500px!important;
+    }
+    .mobtab{
+        margin-top: -615%!important;
+    }
+    .mobtab2{
+        margin-top: 40%!important;
+        padding-left: 7%;
+    }
+    .feature-mob{
+        margin-top: -312%!important;
+    }
+    .nav-menu.active{
+        left: -405px;
+        background-color: #fff;
+        width: 2500%;
+        
+    }
+    .nav-menu{
+        left: -2500%;
+    }
+    .contact-about{
+        padding:7%;
+    }
+    .php-email-form{
+        padding:7%;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
+}
+
+@media only screen  and (max-width : 374px){
+
+    #hero {
+        margin-top: -560px;
+      }
+    .mobile-btn{
+        margin-top: 10%;
+      }
+    .mobile-res{
+        margin-top: -500px!important;
+    }
+    .mobtab{
+        margin-top: -485%!important;
+    }
+    .mobtab2{
+        margin-top: 40%!important;
+        padding-left: 7%;
+    }
+    .feature-mob{
+        margin-top: -233%!important;
+    }
+    .nav-menu.active{
+        left: -400px;
+        background-color: #fff;
+        width: 2500%;
+        
+    }
+    .nav-menu{
+        left: -2500%;
+    }
+    .contact-about{
+        padding:7%;
+    }
+    .php-email-form{
+        padding:7%;
+    }
+    .section-title h2{
+        font-size: 25px;
+    }
 }
